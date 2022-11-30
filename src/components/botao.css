@@ -1,0 +1,27 @@
+
+.botao {
+    background-color: #8a2be2;
+    color: #1C1C1C;
+    border-radius: 5px;
+    border: #1C1C1C solid 3px;
+    cursor: pointer;
+
+    margin-left: 10px;
+    width: 95px;
+    height: 2.5em;
+
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.botao:hover {
+    transition: border 300ms, background-color 300ms, color 300ms;
+    background-color: #1C1C1C;
+    color: #8a2be2;
+    border: #8a2be2 solid 2px;
+
+}
+
